@@ -1,0 +1,29 @@
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.blinkingText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px #000;
+    z-index: 1;
+    animation: blinker .25s linear infinite;
+}
+
+@keyframes blinker {
+    0% {
+        color: red;
+    }
+    50% {
+        opacity: 0;
+        color: blue;
+    }
+    100% {
+        color: green;
+    }
+}
