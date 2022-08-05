@@ -5,7 +5,7 @@ const BlinkingText = () => {
 
 	return (
 		<div className={s.blinkingText}>
-			<span>You've just got tposed!</span>
+			<span>you ve just got tposed!</span>
 		</div>
 	);
 }

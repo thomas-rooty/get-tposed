@@ -7,7 +7,7 @@ const Home = () => {
 	return (
 		<>
 			<Head>
-				<title>YOU'VE JUST GOT TPOSED!</title>
+				<title>YOUVE JUST GOT TPOSED!</title>
 				<meta
 					name="description"
 					content="You've just got tposed! A social network for tposers."
